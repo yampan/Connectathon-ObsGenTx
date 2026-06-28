@@ -485,9 +485,9 @@ def lay_svr():
          eg.Input(ResSvr_URL, key="-server-", 
                   font=FA11B, width=40),
          eg.Button("check_server", background_color=b_color),],
-        [eg.Text(f"Output directory: {DIR_GENERATED_OBS}", 
+        [eg.Text(f"Output directory: '{DIR_GENERATED_OBS}'", 
                  font=FA11BI, background_color=svr_color),
-         eg.Text("", expand_x=True),
+         eg.Text("    ", background_color=svr_color),
          eg.Button("OBS-DIR", font=FA11BI)]
     ]
     return eg.Frame("resSvr", layout=layout, expand_x=True, color="blue",
@@ -1616,12 +1616,12 @@ def main():
                         subprocess.call(f"start {WEB_SITE}", shell=True)
                     break
                 
-                if event == "LOG-DIR":
+                if event in ["LOG-DIR", "OBS-DIR"]:
                     abspath =  os.path.split(os.path.abspath(sys.argv[0]))
                     dir = abspath[0]
-                    #fn = abspath[1]
                     dir = dir.replace("mylib", "")
-                    dir = os.path.join(dir, "log")
+                    subdir = "log" if "LOG" in event else "GEN_OBS"
+                    dir = os.path.join(dir, subdir)
                     print(f"path= {dir}")
                     os.startfile(dir)
 
