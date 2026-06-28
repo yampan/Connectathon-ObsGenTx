@@ -1472,7 +1472,7 @@ def Transfer(win, event, values, deb=0):
 
 ### START MAIN
 def main():
-    global event, values
+    global event, values, pat_para, window
 
     script_name = env["script_name"]
     ### create Window
