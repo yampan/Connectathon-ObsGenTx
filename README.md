@@ -12,3 +12,5 @@ generate Observation resource and transfer to server
   
 ### 2B. 実行
   obsgentx
+### 2C. uninstall
+  uv tool uninstall connectahon-obsgentx
