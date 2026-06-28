@@ -5,6 +5,7 @@ __pycache__/
 
 # directory
 GEN_OBS/
+log/
 
 # C extensions
 *.so
