@@ -1472,23 +1472,8 @@ def Transfer(win, event, values, deb=0):
 
 ### START MAIN
 def main():
-    """
-    script_path = os.path.abspath(sys.argv[0])
-    script_name = os.path.basename(script_path)
-    print(f"スクリプトのパス: {script_path}")
-    print(f"スクリプト名: {script_name}")
-    # ---
-    hostname = socket.gethostname()
-    os_name = platform.system()
-    print(f"#620 os_name={os_name}, hostname={hostname}")
-    
-    #local_ip = get_local_ip_address()
-    local_ip = env["ip"]
-    if local_ip:
-        print(f"自ホストのローカルIPアドレス: {local_ip}")
-    else:
-        print("ローカルIPアドレスを取得できませんでした。")
-    """
+    global event, values
+
     script_name = env["script_name"]
     ### create Window
     flag = 1 # メイリオ,"Arial"
