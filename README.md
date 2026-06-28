@@ -8,7 +8,7 @@ generate Observation resource and transfer to server
   uvx --from git+https://github.com/yampan/Connectathon-ObsGenTx.git ObsGenTx
   
 ### 2A. Localにインストールする場合
-  uv tool install git+https://github.com/yampan/Connectathon-ObsGenTx.git ObsGenTx
+  uv tool install git+https://github.com/yampan/Connectathon-ObsGenTx.git
   
 ### 2B. 実行
-  ObsGenTx
+  obsgentx
