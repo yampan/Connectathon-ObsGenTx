@@ -1,5 +1,5 @@
 # Connectathon-ObsGenTx
-generate Observation resource and transfer to server
++ Generate Observation resources and transfer to the FHIR-server
     
 ## 使い方（uv 環境）
   このツールは、'uv'を使用して、ローカル環境を汚さずに実行します。
