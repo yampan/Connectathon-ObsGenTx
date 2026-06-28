@@ -230,7 +230,7 @@ import requests
 from typing import Optional
 import TkEasyGUI as eg
 import json, os, sys, datetime, random
-import pytz
+#import pytz
 from mylib.readWriteXL import (openXl, getRow, setRow, search3, JST, createLogWs,
                                j_map, trans2, logHeaderSet, JSTfn, trans )
 #from mylib.db_access import query, DBtrans, db_init
