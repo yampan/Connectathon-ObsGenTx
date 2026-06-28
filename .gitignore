@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# directory
+GEN_OBS/
+
 # C extensions
 *.so
 
