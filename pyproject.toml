@@ -7,7 +7,7 @@ requires-python = ">=3.13"
 dependencies = []
 
 [project.scripts]
-obsgentx = "ihe_obs_pat_gen:main"
+obsgentx = "ihe_obs_pat_gen_tx:main"
 
 [build-system]
 requires = ["hatchling"]
