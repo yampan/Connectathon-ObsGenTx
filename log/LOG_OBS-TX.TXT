@@ -1,0 +1,193 @@
+2026-06-28 12:44:06.655 [INF] log|log_init:156  === logger initialized. ===
+2026-06-28 12:44:06.658 [DEB] log|main:1509  
+pat_para = 
+{
+  "1": {
+    "id": "1234567801",
+    "kana": "オオゾネ　ジン",
+    "kanji": "大曽根　仁",
+    "romaji": "JIN OZONE",
+    "gender": "M",
+    "birthday": "19810101",
+    "zip": "105-0004",
+    "address": "東京都港区新橋２丁目５番５号",
+    "tel": "03-3506-8010",
+    "res_id": "IHE-J-CTN-001"
+  },
+  "2": {
+    "id": "1234567802",
+    "kana": "クロカワ　ケイジ",
+    "kanji": "黒川　慶二",
+    "romaji": "KEIJI KUROKAWA",
+    "gender": "M",
+    "birthday": "19820202",
+    "zip": "460-0004",
+    "address": "愛知県名古屋市中区新栄町一丁目１番",
+    "tel": "052-228-8181",
+    "res_id": "IHE-J-CTN-002"
+  },
+  "3": {
+    "id": "1234567803",
+    "kana": "メイジョウ　エリカ",
+    "kanji": "名城　恵梨香",
+    "romaji": "ERIKA MEIJO",
+    "gender": "F",
+    "birthday": "19830303",
+    "zip": "182-0025",
+    "address": "東京都調布市多摩川３－３５－４",
+    "tel": "042-485-7111",
+    "res_id": "IHE-J-CTN-003"
+  },
+  "4": {
+    "id": "1234567804",
+    "kana": "ヒサヤ　キョウコ",
+    "kanji": "久屋　恭子",
+    "romaji": "KYOKO HISAYA",
+    "gender": "F",
+    "birthday": "19840404",
+    "zip": "161-8560",
+    "address": "東京都新宿区西落合１丁目３１番４号",
+    "tel": "03-5996-8000",
+    "res_id": "IHE-J-CTN-004"
+  },
+  "5": {
+    "id": "1234567805",
+    "kana": "サカエ　カツミ",
+    "kanji": "栄　克実",
+    "romaji": "KATSUMI SAKAE",
+    "gender": "M",
+    "birthday": "19800101",
+    "zip": "113-8483",
+    "address": "東京都文京区本郷３－３９－４",
+    "tel": "03-3815-2121",
+    "res_id": "IHE-J-CTN-005"
+  },
+  "6": {
+    "id": "1234567806",
+    "kana": "ヤバ　ミツル",
+    "kanji": "矢場　満",
+    "romaji": "MITSURU YABA",
+    "gender": "M",
+    "birthday": "19800101",
+    "zip": "103-0028",
+    "address": "東京都中央区八重洲１－５－３",
+    "tel": "03-3231-8755",
+    "res_id": "IHE-J-CTN-006"
+  },
+  "7": {
+    "id": "1234567807",
+    "kana": "カミマエヅ　ナオ",
+    "kanji": "上前津　奈央",
+    "romaji": "NAO KAMIMAEZU",
+    "gender": "F",
+    "birthday": "19870707",
+    "zip": "108-8001",
+    "address": "東京都港区芝５－７－１",
+    "tel": "03-3454-1111",
+    "res_id": "IHE-J-CTN-007"
+  },
+  "8": {
+    "id": "1234567808",
+    "kana": "ヒガシベツイン　ミチコ",
+    "kanji": "東別院　美智子",
+    "romaji": "MICHIKO HIGASHIBETSUIN",
+    "gender": "F",
+    "birthday": "19880808",
+    "zip": "103-8510",
+    "address": "東京都中央 区日本橋箱崎町１９－２１",
+    "tel": "03-6667-1111",
+    "res_id": "IHE-J-CTN-008"
+  },
+  "9": {
+    "id": "1234567809",
+    "kana": "カナヤマ　ケンジ",
+    "kanji": "金山　憲史",
+    "romaji": "KENJI KANAYAMA",
+    "gender": "M",
+    "birthday": "19890909",
+    "zip": "324-8550",
+    "address": "栃木県大田原市下石上１３８５番地",
+    "tel": "0287-26-6211",
+    "res_id": "IHE-J-CTN-009"
+  },
+  "10": {
+    "id": "1234567810",
+    "kana": "ヒビノ　ミサト",
+    "kanji": "日比野　美里",
+    "romaji": "MISATO HIBINO",
+    "gender": "F",
+    "birthday": "19901010",
+    "zip": "105-7123",
+    "address": "東京都港区東新橋１－５－２",
+    "tel": "03-6252-2220",
+    "res_id": "IHE-J-CTN-010"
+  },
+  "11": {
+    "id": "1234567811",
+    "kana": "サカエダ　ハルコ",
+    "kanji": "栄田　春子",
+    "romaji": "HARUKO SAKAEDA",
+    "gender": "F",
+    "birthday": "19891111",
+    "zip": "105-1234",
+    "address": "東京都江戸川区南葛西１－２－３",
+    "tel": "03-5674-1234",
+    "res_id": "IHE-J-CTN-011"
+  },
+  "12": {
+    "id": "1234567812",
+    "kana": "カネダ　ミツコ",
+    "kanji": "金田　満子",
+    "romaji": "MITSUKO KANEDA",
+    "gender": "F",
+    "birthday": "19891212",
+    "zip": "105-2345",
+    "address": "東京都中央区八重洲２－３－４",
+    "tel": "03-3231-2345",
+    "res_id": "IHE-J-CTN-012"
+  },
+  "13": {
+    "id": "1234567813",
+    "kana": "タシロ　ケイジ",
+    "kanji": "田代　慶仁",
+    "romaji": "KEIJI TASHIRO",
+    "gender": "M",
+    "birthday": "19900303",
+    "zip": "105-3456",
+    "address": "東京都港区芝３－４－５",
+    "tel": "03-3454-3456",
+    "res_id": "IHE-J-CTN-013"
+  },
+  "14": {
+    "id": "1234567814",
+    "kana": "カネダ　ミツハル",
+    "kanji": "金田　光春",
+    "romaji": "MITSUHARU KANEDA",
+    "gender": "M",
+    "birthday": "19340627",
+    "zip": "799-2340",
+    "address": "愛媛県松山市北条１３５－５",
+    "tel": "089-993-1000",
+    "res_id": "IHE-J-CTN-014"
+  },
+  "15": {
+    "id": "1234567890",
+    "kana": "フクオカ　チヒロ",
+    "kanji": "福岡　千尋",
+    "romaji": "CHIHIRO FUKUOKA",
+    "gender": "F",
+    "birthday": "19901010",
+    "zip": "105-7123",
+    "address": "東京都港区東新橋１－５－２",
+    "tel": "03-6252-2220"
+  }
+}
+2026-06-28 12:44:06.662 [DEB] log|main:1511  #1139 stats=['final', 'preliminary', 'cancelled']
+2026-06-28 12:44:06.662 [DEB] log|main:1512  days=['2026-04-01T10:10:00+09:00', '2026-04-08T10:10:00+09:00', '2026-04-15T10:10:00+09:00']
+2026-06-28 12:44:06.662 [DEB] log|main:1513  mess=['軽い頭痛を訴えている', 'さすような心窩部痛を訴えている', '左手にしびれを訴えている', '右ひざの痛みを訴えている', '下痢を訴えている', '強い頭痛を訴えている']
+2026-06-28 12:44:06.841 [DEB] log|main:1539  get_center_location= (110, 110)
+2026-06-28 12:44:06.841 [DEB] log|main:1540  get_screen_size= (1707, 960)
+2026-06-28 12:44:06.841 [DEB] log|main:1542  set_alpha_channel= 0.98
+2026-06-28 12:44:06.841 [DEB] log|main:1545  set_size= (720, 750)
+2026-06-28 12:44:06.841 [DEB] log|main:1547  get_size= (200, 200)
+2026-06-28 12:44:06.841 [DEB] log|main:1549  theme= 

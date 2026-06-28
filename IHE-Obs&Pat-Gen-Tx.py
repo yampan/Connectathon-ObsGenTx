@@ -1,5 +1,16 @@
 # -*- coding: utf-8 -*-
 
+### uv 環境
+# uv init [project]
+# cd [project]
+# uv python pin 3.1x
+# uv add [library]
+# uv sync
+# 仮想環境に入る。  .venv\Scripts\Activate.bat (ps1)
+# uv run (python) aaa.py 
+# VS-code内：　ctrl+shft+P (.venv/python.exe)を選択
+#             ctrl+@  terminal で ([project 名]) が表示される。
+
 ### 2026-06-24
 r"""
 ###  FHIR Serverの設定により、Observationを Uploadする。
@@ -227,17 +238,12 @@ from mylib.logger import (FMT, FMT2, createLogger,
             clearLogfile, log_init, get_file_info)
 import glob
 from mylib.version_info2 import help_window, startFile
-from mylib.daycheck import dayCheckM, pred
-from mylib.queryRepo import (marital_status_get, name_use_get, create_patRes,
-                             marital_change, gender_get, fQuery )
-from mylib.postRes import postRes
+#from mylib.daycheck import dayCheckM, pred
+#from mylib.queryRepo import (marital_status_get, name_use_get, create_patRes,
+#                             marital_change, gender_get, fQuery )
+#from mylib.postRes import postRes
 from mylib.http_code import HTTP2S
-from mylib.sub_window95 import test_window95
-from mylib.sub_window96 import test_window96
-from mylib.sub_window97 import test_window97
-from mylib.sub_window98 import test_window98
-from mylib.sub_window99 import test_window99
-from mylib.sub_window100 import test_window100
+
 from mylib.generate_pat import build_patient, read_para
 from mylib.generate_obs import gen_obs_main, stats, days, mess
 
@@ -473,14 +479,19 @@ def gen_pat_list(dir: str, filter: str) -> List[str]:
 def lay_svr():
     global fns
     # font=("arial", 10,'bold')
+    svr_color="#B8DFF1"
     layout = [
-        [eg.Text("FHIR server:"),
+        [eg.Text("FHIR server:",background_color=svr_color),
          eg.Input(ResSvr_URL, key="-server-", 
                   font=FA11B, width=40),
          eg.Button("check_server", background_color=b_color),],
+        [eg.Text(f"Output directory: {DIR_GENERATED_OBS}", 
+                 font=FA11BI, background_color=svr_color),
+         eg.Text("", expand_x=True),
+         eg.Button("OBS-DIR", font=FA11BI)]
     ]
     return eg.Frame("resSvr", layout=layout, expand_x=True, color="blue",
-              key="-info-", background_color="#B8DFF1",
+              key="-info-", background_color=svr_color,
               font=("arial", 11, "bold italic"))
 
 def lay_info():
@@ -1460,7 +1471,7 @@ def Transfer(win, event, values, deb=0):
 
 
 ### START MAIN
-if __name__ == '__main__':
+def main():
     """
     script_path = os.path.abspath(sys.argv[0])
     script_name = os.path.basename(script_path)
@@ -1730,3 +1741,8 @@ if __name__ == '__main__':
             break
     # ---
     print("    ==> NORMAL END.")
+    # --- main() end.
+    
+if __name__ == '__main__':
+    main()
+    

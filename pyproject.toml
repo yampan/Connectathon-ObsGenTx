@@ -1,7 +1,10 @@
 [project]
 name = "connectathon-obsgentx"
 version = "0.1.0"
-description = "Add your description here"
+description = "generate Obs and transfer them to FHIR-server"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
+
+[project.scripts]
+obsgentx = IHE-Obs&Pat-Gen-Tx:main
