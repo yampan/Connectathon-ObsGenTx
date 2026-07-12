@@ -3,11 +3,17 @@
   "id": "jp-specimen-example-1",
   "meta": {
     "versionId": "2",
-    "lastUpdated": "2026-07-09T12:54:22.124+09:00",
+    "lastUpdated": "2026-07-10T19:54:59.567+09:00",
     "profile": [
       "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Specimen"
     ]
   },
+  "identifier": [
+    {
+      "system": "http://IHE-hospital.local/specimens/id",
+      "value": "SPEC-2600123450"
+    }
+  ],
   "status": "available",
   "type": {
     "coding": [

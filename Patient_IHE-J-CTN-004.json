@@ -2,8 +2,8 @@
   "resourceType": "Patient",
   "id": "IHE-J-CTN-004",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-06-26T19:53:48.120+09:00",
+    "versionId": "2",
+    "lastUpdated": "2026-07-09T15:35:34.767+09:00",
     "profile": [
       "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient"
     ]
@@ -19,18 +19,38 @@
     {
       "extension": [
         {
-          "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_HumanName_Kana",
-          "valueString": "ヒサヤ　キョウコ"
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "IDE"
         }
       ],
-      "use": "official",
-      "text": "久屋　恭子",
+      "use": "usual",
+      "text": "久屋 恭子",
       "family": "久屋",
       "given": [
         "恭子"
       ]
     },
     {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "SYL"
+        }
+      ],
+      "use": "usual",
+      "text": "ヒサヤ キョウコ",
+      "family": "ヒサヤ",
+      "given": [
+        "キョウコ"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "ABC"
+        }
+      ],
       "use": "usual",
       "text": "KYOKO HISAYA",
       "family": "HISAYA",

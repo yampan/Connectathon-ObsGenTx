@@ -2,8 +2,8 @@
   "resourceType": "Patient",
   "id": "IHE-J-CTN-002",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-06-26T19:53:37.407+09:00",
+    "versionId": "2",
+    "lastUpdated": "2026-07-09T15:33:37.876+09:00",
     "profile": [
       "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient"
     ]
@@ -19,18 +19,38 @@
     {
       "extension": [
         {
-          "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_HumanName_Kana",
-          "valueString": "クロカワ　ケイジ"
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "IDE"
         }
       ],
-      "use": "official",
-      "text": "黒川　慶二",
+      "use": "usual",
+      "text": "黒川 慶二",
       "family": "黒川",
       "given": [
         "慶二"
       ]
     },
     {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "SYL"
+        }
+      ],
+      "use": "usual",
+      "text": "クロカワ ケイジ",
+      "family": "クロカワ",
+      "given": [
+        "ケイジ"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "ABC"
+        }
+      ],
       "use": "usual",
       "text": "KEIJI KUROKAWA",
       "family": "KUROKAWA",

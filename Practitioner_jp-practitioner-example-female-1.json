@@ -2,12 +2,18 @@
   "resourceType": "Practitioner",
   "id": "jp-practitioner-example-female-1",
   "meta": {
-    "versionId": "3",
-    "lastUpdated": "2026-07-09T12:54:19.994+09:00",
+    "versionId": "2",
+    "lastUpdated": "2026-07-10T19:54:56.504+09:00",
     "profile": [
       "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Practitioner"
     ]
   },
+  "identifier": [
+    {
+      "system": "http://IHE-hospital.local/practitioners/id",
+      "value": "PRAC-2601018"
+    }
+  ],
   "active": true,
   "name": [
     {

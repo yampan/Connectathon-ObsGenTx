@@ -2,8 +2,8 @@
   "resourceType": "Patient",
   "id": "IHE-J-CTN-003",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-06-26T19:53:42.952+09:00",
+    "versionId": "2",
+    "lastUpdated": "2026-07-09T15:35:34.192+09:00",
     "profile": [
       "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient"
     ]
@@ -19,18 +19,38 @@
     {
       "extension": [
         {
-          "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_HumanName_Kana",
-          "valueString": "メイジョウ　エリカ"
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "IDE"
         }
       ],
-      "use": "official",
-      "text": "名城　恵梨香",
+      "use": "usual",
+      "text": "名城 恵梨香",
       "family": "名城",
       "given": [
         "恵梨香"
       ]
     },
     {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "SYL"
+        }
+      ],
+      "use": "usual",
+      "text": "メイジョウ エリカ",
+      "family": "メイジョウ",
+      "given": [
+        "エリカ"
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation",
+          "valueCode": "ABC"
+        }
+      ],
       "use": "usual",
       "text": "ERIKA MEIJO",
       "family": "MEIJO",
