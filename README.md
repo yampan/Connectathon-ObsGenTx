@@ -1,6 +1,6 @@
 # Connectathon-ObsGenTx
 + Generate Observation resources and transfer to the FHIR-server  
-**2026-07-09**      
+**2026-09-06**      
 ## Observation  
 1. patient 4人  
 2. date 3種類  
