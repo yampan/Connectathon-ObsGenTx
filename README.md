@@ -9,7 +9,7 @@
 5. 合計： 1セット ２５２個のリソース for each patient  
 
 ## その他  
-**Observasationが参照しているもの**
+**Observasationが参照(resource id)しているもの**
 1. Patient resource  
 2. Device resource  
 3. Practitioner resource  
