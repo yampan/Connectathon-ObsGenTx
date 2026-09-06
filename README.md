@@ -6,7 +6,7 @@
 2. date 3種類  
 3. status 3種類  
 4. category 7種類  
-5. 合計： 1セット ２５２個のリソース for each patient  
+5. 合計：  ２５２個のリソース (for 4 patients)  
 
 ## その他  
 **Observasationが、(resource id)参照しているもの**
