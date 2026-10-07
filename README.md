@@ -16,8 +16,8 @@
 5. 合計：  ２５２個のリソース (for 4 patients)  
 
 ## その他  
-**Observation が、(resource id)参照しているもの**  
-以下のファイルは、サーバーにPUT で 各リソースのIDをそのまま、サーバーに保存すること。
+**Observation が、(resource id)参照しているResource**  
+以下の4種類のファイルは、サーバーに PUT で 各リソースのIDをそのまま、サーバーに保存すること。
 1. Patient resource  
 2. Device resource  
 3. Practitioner resource  
